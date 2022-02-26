@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: djangoapp-ama993
     routes:
-      - route: $HOST.$DOMAIN
+      - route: ama-993.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: djangoapp-ama993-nginx
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: ama-993.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
