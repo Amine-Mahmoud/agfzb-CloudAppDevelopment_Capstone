@@ -103,8 +103,8 @@ def get_dealer_reviews_from_cf(url, dealer_id):
 
 def analyze_review_sentiments(text):
     result = "Not checked"
-    api_key = ""
-    url = ""
+    api_key = "a1n2cvTZPNdni6o_eO9JauoEnzM19poWfVIxExG4DBv8"
+    url = "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/b820c231-0c73-466b-8937-612d04c13a68"
     authenticator = IAMAuthenticator(api_key)
     natural_language_understanding = NaturalLanguageUnderstandingV1(
         version = "2021-03-25",
